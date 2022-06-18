@@ -2,13 +2,13 @@ import React from "react";
 import { Routes, Route } from 'react-router-dom';
 
 //페이지 import
-import Main from "../pages/Main"
-import Login from "../pages/Login"
-import SignUp from "../pages/SignUp"
-import Cart from "../pages/Cart"
-import Detail from "../pages/Detail"
-import Search from "../pages/Search"
-import ReviewWrite from "../pages/ReviewWrite"
+import MainPage from "../pages/MainPage"
+import LoginPage from "../pages/LoginPage"
+import SignUpPage from "../pages/SignUpPage"
+import CartPage from "../pages/CartPage"
+import DetailPage from "../pages/DetailPage"
+import SearchPage from "../pages/SearchPage"
+import ReviewWritePage from "../pages/ReviewWritePage"
 
 //컴포넌트 import
 import Header from "../components/header/Header";
@@ -20,13 +20,13 @@ function App() {
     <>
       <Header/>
       <Routes>
-        <Route exact path="/" element={<Main/>} />
-        <Route exact path="/login" element={<Login/>} />
-        <Route exact path="/register" element={<SignUp/>} />
-        <Route exact path="/cart" element={<Cart/>} />
-        <Route exact path="/search" element={<Search/>} />
-        <Route exact path="/detail/:id" element={<Detail/>} />
-        <Route exact path="/detail/:productId/write" element={<ReviewWrite/>} />
+        <Route exact path="/" element={<MainPage/>} />
+        <Route exact path="/login" element={<LoginPage/>} />
+        <Route exact path="/register" element={<SignUpPage/>} />
+        <Route exact path="/cart" element={<CartPage/>} />
+        <Route exact path="/search" element={<SearchPage/>} />
+        <Route exact path="/detail/:Id" element={<DetailPage/>} />
+        <Route exact path="/detail/:productId/write" element={<ReviewWritePage/>} />
       </Routes>
       <Footer/>
     </>
