@@ -1,7 +1,13 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react"
 
-const Main = () => {
-   return <>Main PAGE</>;
-};
-export default Main;
+function Main () {
+
+    return(
+        <>
+            <h1>테스트해보자!</h1>
+        </>
+        
+    )
+}
+
+export default Main
