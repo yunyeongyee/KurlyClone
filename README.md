@@ -28,6 +28,7 @@ https://user-images.githubusercontent.com/105087260/182771067-cb8e649d-4fa3-4900
 | 이윤영   | https://github.com/yunyeongyee   | FE |
 | 임형섭   | https://github.com/4hsnim   | FE |
 | 강현구   | https://github.com/codlg   | BE |
+| 이기정   | https://github.com/   | BE |
 | 이정찬   | https://github.com/biolkj28       | BE     |
 
 <br/>
