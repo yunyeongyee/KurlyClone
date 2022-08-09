@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from 'react-router-dom';
-
+import '../shared/App.css'
+import {db} from '../firebase';
 //페이지 import
 import MainPage from "../pages/MainPage"
 import LoginPage from "../pages/LoginPage"
@@ -13,7 +14,8 @@ import ReviewWritePage from "../pages/ReviewWritePage"
 //컴포넌트 import
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-
+/*Global CSS*/
+import './App.css';
 
 function App() {
   return (
@@ -25,7 +27,7 @@ function App() {
         <Route exact path="/register" element={<SignUpPage/>} />
         <Route exact path="/cart" element={<CartPage/>} />
         <Route exact path="/search" element={<SearchPage/>} />
-        <Route exact path="/detail/:Id" element={<DetailPage/>} />
+        <Route exact path="/detail/:productId" element={<DetailPage/>} />
         <Route exact path="/detail/:productId/write" element={<ReviewWritePage/>} />
       </Routes>
       <Footer/>

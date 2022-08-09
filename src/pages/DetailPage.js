@@ -1,18 +1,21 @@
 import React from "react";
+import styled from 'styled-components';
+
+/*COMPONENTS*/
 import Detail from "../components/detail/Detail";
 import Review from "../components/detail/Review";
-import { useParams } from "react-router";
-import { useSelector } from "react-redux";
+
 
 const DetailPage = (props) => {
 
 
   return (
-    <>
-      <Detail />
-      <Review />
-    </>
+     <>
+        <Detail />
+        <Review />
+     </>
   );
+  
 };
 
 export default DetailPage;
